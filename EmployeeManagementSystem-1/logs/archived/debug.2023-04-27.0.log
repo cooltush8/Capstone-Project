@@ -1,0 +1,6 @@
+2023-04-27 00:06:50,007 INFO  EmployeeController:27 - [] Record of EmployeeID(1003)is called
+2023-04-27 00:06:53,772 INFO  EmployeeController:27 - [] Record of EmployeeID(1002)is called
+2023-04-27 00:07:14,729 INFO  EmployeeController:27 - [] Record of EmployeeID(1002)is called
+2023-04-27 00:09:33,573 INFO  EmployeeController:27 - [] Record of EmployeeID(1002)is called
+2023-04-27 00:09:50,989 INFO  EmployeeController:27 - [] Record of EmployeeID(1001)is called
+2023-04-27 00:09:58,989 INFO  EmployeeController:27 - [] Record of EmployeeID(1001)is called
