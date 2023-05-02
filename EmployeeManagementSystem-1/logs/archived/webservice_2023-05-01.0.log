@@ -1,0 +1,175 @@
+2023-05-01 22:46:28.314 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - Starting EmployeeManagementSystem1Application using Java 17.0.6 on DESKTOP-63ID5FK with PID 14408 (C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1\bin\main started by Tushar in C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1)
+2023-05-01 22:46:28.319 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-01 22:46:29.066 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01 22:46:29.133 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-05-01 22:46:29.712 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8685 (https)
+2023-05-01 22:46:29.723 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-01 22:46:29.724 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-01 22:46:29.856 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-01 22:46:29.856 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1463 ms
+2023-05-01 22:46:30.005 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-01 22:46:30.047 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-01 22:46:30.199 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-01 22:46:30.295 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-01 22:46:31.047 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-01 22:46:31.075 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-01 22:46:32.431 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-01 22:46:32.443 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:46:32.738 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01 22:46:33.004 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8685 is already in use
+2023-05-01 22:46:33.007 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:46:33.009 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-01 22:46:33.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-01 22:46:33.023 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-01 22:46:33.033 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-01 22:46:33.049 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8685 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8685 or configure this application to listen on another port.
+
+2023-05-01 22:46:43.098 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - Starting EmployeeManagementSystem1Application using Java 17.0.6 on DESKTOP-63ID5FK with PID 17124 (C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1\bin\main started by Tushar in C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1)
+2023-05-01 22:46:43.101 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-01 22:46:43.756 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01 22:46:43.802 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-05-01 22:46:44.275 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8685 (https)
+2023-05-01 22:46:44.283 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-01 22:46:44.284 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-01 22:46:44.408 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-01 22:46:44.409 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2023-05-01 22:46:44.577 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-01 22:46:44.616 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-01 22:46:44.763 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-01 22:46:44.861 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-01 22:46:45.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-01 22:46:45.231 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-01 22:46:46.616 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-01 22:46:46.625 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:46:47.003 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01 22:46:47.327 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8685 is already in use
+2023-05-01 22:46:47.329 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:46:47.332 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-01 22:46:47.345 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-01 22:46:47.348 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-01 22:46:47.361 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-01 22:46:47.378 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8685 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8685 or configure this application to listen on another port.
+
+2023-05-01 22:47:29.858 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - Starting EmployeeManagementSystem1Application using Java 17.0.6 on DESKTOP-63ID5FK with PID 20740 (C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1\bin\main started by Tushar in C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1)
+2023-05-01 22:47:29.861 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-01 22:47:30.547 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01 22:47:30.605 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-05-01 22:47:31.174 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8686 (https)
+2023-05-01 22:47:31.183 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-01 22:47:31.184 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-01 22:47:31.305 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-01 22:47:31.305 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1387 ms
+2023-05-01 22:47:31.441 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-01 22:47:31.481 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-01 22:47:31.624 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-01 22:47:31.721 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-01 22:47:32.126 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-01 22:47:32.162 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-01 22:47:33.105 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-01 22:47:33.116 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:47:33.440 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01 22:47:34.049 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8686], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/Tushar/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/EmployeeManagementSystem-1/bin/main/keystore.p12] using alias [spring-https] and with trust store [null]
+2023-05-01 22:47:34.074 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8686 (https) with context path ''
+2023-05-01 22:47:34.084 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - Started EmployeeManagementSystem1Application in 4.679 seconds (JVM running for 5.665)
+2023-05-01 22:48:03.167 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hdfc.capstone.EMS.EmployeeServiceTest], using SpringBootContextLoader
+2023-05-01 22:48:03.177 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hdfc.capstone.EMS.EmployeeServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-05-01 22:48:03.178 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hdfc.capstone.EMS.EmployeeServiceTest]: EmployeeServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-01 22:48:03.324 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hdfc.capstone.EMS.EmployeeManagementSystem1Application for test class com.hdfc.capstone.EMS.EmployeeServiceTest
+2023-05-01 22:48:03.480 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-05-01 22:48:03.507 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b58f754, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ebff828, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2552f2cb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@33352f32, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f3b9c57, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e044120, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2cf23c81, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3624da92, org.springframework.test.context.event.EventPublishingTestExecutionListener@35fe2125, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@94f6bfb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@34645867, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2484f433, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60b71e8f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1255b1d1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@464649c]
+2023-05-01 22:48:03.978 [main] INFO  c.h.c.EMS.EmployeeServiceTest - Starting EmployeeServiceTest using Java 17.0.6 on DESKTOP-63ID5FK with PID 6988 (started by Tushar in C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1)
+2023-05-01 22:48:03.980 [main] INFO  c.h.c.EMS.EmployeeServiceTest - No active profile set, falling back to 1 default profile: "default"
+2023-05-01 22:48:05.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01 22:48:05.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2023-05-01 22:48:05.986 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-01 22:48:06.056 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-01 22:48:06.314 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-01 22:48:06.594 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-01 22:48:07.186 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-01 22:48:07.229 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-01 22:48:08.654 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-01 22:48:08.666 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:48:09.519 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01 22:48:10.429 [main] INFO  c.h.c.EMS.EmployeeServiceTest - Started EmployeeServiceTest in 6.865 seconds (JVM running for 9.104)
+2023-05-01 22:48:11.726 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hdfc.capstone.EMS.EmployeeManagementSystem1ApplicationTests], using SpringBootContextLoader
+2023-05-01 22:48:11.728 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.hdfc.capstone.EMS.EmployeeManagementSystem1ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-05-01 22:48:11.729 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hdfc.capstone.EMS.EmployeeManagementSystem1ApplicationTests]: EmployeeManagementSystem1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-01 22:48:11.733 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hdfc.capstone.EMS.EmployeeManagementSystem1Application for test class com.hdfc.capstone.EMS.EmployeeManagementSystem1ApplicationTests
+2023-05-01 22:48:11.736 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-05-01 22:48:11.737 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ee126de, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22cce199, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@14b4b25e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4babe06f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5c6be812, org.springframework.test.context.support.DirtiesContextTestExecutionListener@19ee0a2f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28796d0e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3cc548f6, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fed0c04, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@563bd6a4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3549c070, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@235dacd7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@74070994, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7c816f46, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7307ae6]
+2023-05-01 22:48:11.760 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01 22:48:11.763 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-01 22:48:11.781 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-01 22:48:55.401 [https-jsse-nio-8686-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-01 22:48:55.402 [https-jsse-nio-8686-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-01 22:48:55.403 [https-jsse-nio-8686-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-01 22:48:55.442 [https-jsse-nio-8686-exec-6] INFO  c.h.c.E.c.EmployeeController - Record of EmployeeID(1001)is called
+2023-05-01 23:32:03.425 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m988ms301µs200ns).
+2023-05-02 01:33:54.041 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - Starting EmployeeManagementSystem1Application using Java 17.0.6 on DESKTOP-63ID5FK with PID 19096 (C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1\bin\main started by Tushar in C:\Users\Tushar\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem-1)
+2023-05-02 01:33:54.052 [main] INFO  c.h.c.E.EmployeeManagementSystem1Application - No active profile set, falling back to 1 default profile: "default"
+2023-05-02 01:33:55.234 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 01:33:55.328 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2023-05-02 01:33:56.180 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8686 (https)
+2023-05-02 01:33:56.198 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-02 01:33:56.199 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 01:33:56.570 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-02 01:33:56.570 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2397 ms
+2023-05-02 01:33:56.812 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 01:33:56.912 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-02 01:33:57.200 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 01:33:57.674 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-02 01:33:58.645 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-02 01:33:58.697 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-02 01:34:00.924 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 01:34:00.939 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 01:34:01.672 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 01:34:02.454 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8686 is already in use
+2023-05-02 01:34:02.456 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 01:34:02.458 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-02 01:34:02.469 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-02 01:34:02.471 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-02 01:34:02.483 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-02 01:34:02.505 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8686 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8686 or configure this application to listen on another port.
+
