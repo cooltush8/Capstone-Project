@@ -1,9 +1,14 @@
 package com.hdfc.capstone.EMS.exception;
 
 import org.springframework.http.HttpStatus;
+
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+
+
+@ControllerAdvice
 public class GlobalExceptionHandler {
 	
 	
@@ -15,11 +20,14 @@ public class GlobalExceptionHandler {
 //	}
 	 @ExceptionHandler(EmployeeIDException.class)
 	    public ResponseEntity<String> handleEmployeeIDException(EmployeeIDException ex) {
-	        return new ResponseEntity<>("Invalid Employee ID", HttpStatus.BAD_REQUEST);
+		 
+	        return new ResponseEntity<>("Invalid Employee ID ", HttpStatus.BAD_REQUEST);
 	    }
 
 @ExceptionHandler(Exception.class)
 public ResponseEntity<String> handleException(Exception ex) {
-	return new ResponseEntity<>("An error occurred: " + ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+	return new ResponseEntity<>("Please Enter Integer Valid Employee ID Only ", HttpStatus.EXPECTATION_FAILED);
 }
 }
+
+

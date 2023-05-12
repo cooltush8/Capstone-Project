@@ -5,6 +5,8 @@ package com.hdfc.capstone.EMS.service;
 
 
 import java.nio.charset.StandardCharsets;
+
+
 import java.security.spec.KeySpec;
 import java.util.Base64;
 
@@ -50,8 +52,9 @@ public class EmployeeService implements IEmployeeService {
 			return employeeVO;
 		}
 		else {
-			throw new EmployeeIDException("Invalid EmployeeID :" +employeeId);
+			throw new EmployeeIDException("Invalid EmployeeID : " +employeeId);
 		}
+		
 	}
 	
 	public static String encrypt(String strToEncrypt) throws Exception {
